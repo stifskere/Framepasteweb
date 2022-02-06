@@ -2,20 +2,22 @@
 .blur{
 
 }
-.body{
+body{
     background-image: url("BGtest.png");
     background-position: center;
     background-attachment: fixed;
+}
+.body::-webkit-scrollbar {
+    display: none;
 }
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
     overflow: hidden;
-    margin-left: 7%;
+    margin-left: 7.5%;
     margin-right: auto;
     width: 85%;
     height: 60px;
-    position: fixed;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -43,7 +45,7 @@
 }
 .transparency1{
     width: 19.9%;
-    height: 600px;
+    height: 610px;
     color: #FFFFFF;
 }
 .test{

@@ -11,26 +11,128 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
+
 <body class="body">
-<div class="topnav">
-    <a class="active" href="Index.html">About</a>
-    <a href="Socials.html">Socials</a>
-    <a href="Giveaways.html">Giveaways</a>
-    <a href="Banappeals.html">Ban appeals</a>
-</div>
     <div class="transparency1">
     </div>
+    <div class="topnav" id="navbar_top">
+        <a class="active" href="Index.html">About</a>
+        <a href="Socials.html">Socials</a>
+        <a href="Giveaways.html">Giveaways</a>
+        <a href="Banappeals.html">Ban appeals</a>
+    </div>
+    <script>
+        window.addEventListener('scroll', function() {
+            let navbar_height;
+            if (window.scrollY > 600) {
+                document.getElementById('navbar_top').classList.add('fixed-top');
+                // add padding top to show content behind navbar
+                navbar_height = document.querySelector('.navbar').offsetHeight;
+                document.body.style.paddingTop = navbar_height + 'px';
+            } else {
+                document.getElementById('navbar_top').classList.remove('fixed-top');
+                // remove padding top from body
+                document.body.style.paddingTop = '0';
+            }
+        });
+    </script>
     <!--- All page content --->
         <div class="test" >
             <div class="description">
-                <p>
-                    <br>
-                    Well I remade the top bar menu, added some test pages, if you wanna test them it will be there
-                    <br>
-                    i removed the part of the hover, i'll add it to the appeals form meanwhile i don't know how to do it LMAO
-                    <br>
-                    Tell me what do you think about it
-                </p>
+                <pre>
+                    Lorem ipsum dolor sit amet, his iisque officiis id, et vel esse iisque.
+                    Meis magna definitionem mel te. No partiendo delicatissimi usu.
+                    Eu sed impedit molestie, at vix minim electram referrentur.
+                    Ut audiam aeterno malorum eam. Soluta urbanitas ea mel.
+                    Aeterno persecuti definitionem cum in. Mei habemus interesset in,
+                    id vis democritum constituam dissentiunt.
+                    Mea at legere dolorem gubergren, cu ipsum dolore intellegebat vix.
+                    Labores nonumes scaevola eum ea. Et vitae noluisse cotidieque vis,
+                    ius odio malis tation id, diam aliquid te mei. Scripta constituam te sea.
+                    Te mei malis doctus vulputate, magna omnium sit cu, ut duo dictas detracto.
+                    Mei et praesent sententiae concludaturque.
+                    Cu mei choro dolor honestatis, fabellas deseruisse ea qui,
+                    ex enim vivendo perfecto eos. Ex augue complectitur has,
+                    te eam iudico cetero, euismod maluisset disputationi mel in.
+                    Est ad aeterno imperdiet, cu stet etiam pertinax quo.
+                    Fierent suscipit honestatis est ad, pro quem similique ne,
+                    virtute offendit an cum. Sonet laudem theophrastus cu sea,
+                    ullum ridens quodsi quo et.
+                    Ius no illud audiam aperiam. Enim clita repudiare duo et.
+                    Dolor officiis eos ne, et bonorum mnesarchum mei.
+                    Reque justo impetus an est, idque nullam pri te,
+                    alii neglegentur mel id. Has ne dicant vocent lucilius,
+                    in atqui appellantur ius.
+                    Lorem ipsum dolor sit amet, his iisque officiis id, et vel esse iisque.
+                    Meis magna definitionem mel te. No partiendo delicatissimi usu.
+                    Eu sed impedit molestie, at vix minim electram referrentur.
+                    Ut audiam aeterno malorum eam. Soluta urbanitas ea mel.
+                    Aeterno persecuti definitionem cum in. Mei habemus interesset in,
+                    id vis democritum constituam dissentiunt.
+                    Mea at legere dolorem gubergren, cu ipsum dolore intellegebat vix.
+                    Labores nonumes scaevola eum ea. Et vitae noluisse cotidieque vis,
+                    ius odio malis tation id, diam aliquid te mei. Scripta constituam te sea.
+                    Te mei malis doctus vulputate, magna omnium sit cu, ut duo dictas detracto.
+                    Mei et praesent sententiae concludaturque.
+                    Cu mei choro dolor honestatis, fabellas deseruisse ea qui,
+                    ex enim vivendo perfecto eos. Ex augue complectitur has,
+                    te eam iudico cetero, euismod maluisset disputationi mel in.
+                    Est ad aeterno imperdiet, cu stet etiam pertinax quo.
+                    Fierent suscipit honestatis est ad, pro quem similique ne,
+                    virtute offendit an cum. Sonet laudem theophrastus cu sea,
+                    ullum ridens quodsi quo et.
+                    Ius no illud audiam aperiam. Enim clita repudiare duo et.
+                    Dolor officiis eos ne, et bonorum mnesarchum mei.
+                    Reque justo impetus an est, idque nullam pri te,
+                    alii neglegentur mel id. Has ne dicant vocent lucilius,
+                    in atqui appellantur ius.
+                    Lorem ipsum dolor sit amet, his iisque officiis id, et vel esse iisque.
+                    Meis magna definitionem mel te. No partiendo delicatissimi usu.
+                    Eu sed impedit molestie, at vix minim electram referrentur.
+                    Ut audiam aeterno malorum eam. Soluta urbanitas ea mel.
+                    Aeterno persecuti definitionem cum in. Mei habemus interesset in,
+                    id vis democritum constituam dissentiunt.
+                    Mea at legere dolorem gubergren, cu ipsum dolore intellegebat vix.
+                    Labores nonumes scaevola eum ea. Et vitae noluisse cotidieque vis,
+                    ius odio malis tation id, diam aliquid te mei. Scripta constituam te sea.
+                    Te mei malis doctus vulputate, magna omnium sit cu, ut duo dictas detracto.
+                    Mei et praesent sententiae concludaturque.
+                    Cu mei choro dolor honestatis, fabellas deseruisse ea qui,
+                    ex enim vivendo perfecto eos. Ex augue complectitur has,
+                    te eam iudico cetero, euismod maluisset disputationi mel in.
+                    Est ad aeterno imperdiet, cu stet etiam pertinax quo.
+                    Fierent suscipit honestatis est ad, pro quem similique ne,
+                    virtute offendit an cum. Sonet laudem theophrastus cu sea,
+                    ullum ridens quodsi quo et.
+                    Ius no illud audiam aperiam. Enim clita repudiare duo et.
+                    Dolor officiis eos ne, et bonorum mnesarchum mei.
+                    Reque justo impetus an est, idque nullam pri te,
+                    alii neglegentur mel id. Has ne dicant vocent lucilius,
+                    in atqui appellantur ius.
+                    Lorem ipsum dolor sit amet, his iisque officiis id, et vel esse iisque.
+                    Meis magna definitionem mel te. No partiendo delicatissimi usu.
+                    Eu sed impedit molestie, at vix minim electram referrentur.
+                    Ut audiam aeterno malorum eam. Soluta urbanitas ea mel.
+                    Aeterno persecuti definitionem cum in. Mei habemus interesset in,
+                    id vis democritum constituam dissentiunt.
+                    Mea at legere dolorem gubergren, cu ipsum dolore intellegebat vix.
+                    Labores nonumes scaevola eum ea. Et vitae noluisse cotidieque vis,
+                    ius odio malis tation id, diam aliquid te mei. Scripta constituam te sea.
+                    Te mei malis doctus vulputate, magna omnium sit cu, ut duo dictas detracto.
+                    Mei et praesent sententiae concludaturque.
+                    Cu mei choro dolor honestatis, fabellas deseruisse ea qui,
+                    ex enim vivendo perfecto eos. Ex augue complectitur has,
+                    te eam iudico cetero, euismod maluisset disputationi mel in.
+                    Est ad aeterno imperdiet, cu stet etiam pertinax quo.
+                    Fierent suscipit honestatis est ad, pro quem similique ne,
+                    virtute offendit an cum. Sonet laudem theophrastus cu sea,
+                    ullum ridens quodsi quo et.
+                    Ius no illud audiam aperiam. Enim clita repudiare duo et.
+                    Dolor officiis eos ne, et bonorum mnesarchum mei.
+                    Reque justo impetus an est, idque nullam pri te,
+                    alii neglegentur mel id. Has ne dicant vocent lucilius,
+                    in atqui appellantur ius.
+                </pre>
             </div>
 
         </div>
