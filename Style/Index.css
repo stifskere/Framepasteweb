@@ -9,10 +9,6 @@ body{
     background-size: cover;
 }
 
-all-content{
-    
-}
-
 .body::-webkit-scrollbar {
     display: none;
 }
@@ -24,6 +20,10 @@ all-content{
     margin-right: auto;
     width: 85%;
     height: 60px;
+
+}
+.topnavborderradius{
+    border-radius: 15px 15px 0px 0px;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -63,7 +63,16 @@ all-content{
     height: 2000px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 0px 0px 15px 15px;
 }
+
+.transparency2{
+    width: 50vw;
+    height: 1vw;
+    color: #FFFFFF;
+    position: relative;
+}
+
 .description{
     text-align: center;
 }
