@@ -7,6 +7,7 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    scroll-behavior: smooth;
 }
 
 .body::-webkit-scrollbar {
