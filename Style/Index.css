@@ -77,3 +77,14 @@ body{
 .description{
     text-align: center;
 }
+
+.center{
+    text-align: center;
+}
+
+.cubesize{
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
